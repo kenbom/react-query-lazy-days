@@ -16,6 +16,7 @@ export function App(): ReactElement {
         <Navbar />
         <Loading />
         <Routes />
+        <ReactQueryDevtools />
       </QueryClientProvider>
     </ChakraProvider>
   );
